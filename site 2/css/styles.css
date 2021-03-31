@@ -60,6 +60,28 @@ header {
     padding-bottom: 10px;
 }
 
-.spacing {
+.bottom-spacing {
     margin-bottom: 30px;
+}
+
+.black-text{
+    color: black;
+}
+
+.nav-list-item{
+    border: 2px black;
+    text-align: center;
+}
+@media (max-width: 767px) {
+    .container{
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .col-xs-12 {
+        float: left;
+    }
+    .col-xs-12 {
+        width: 100%;
+    }
 }
